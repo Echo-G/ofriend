@@ -1,0 +1,36 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	you: {
+		DisplayName: 你
+		Tooltip: 你你你你你
+	}
+
+	NanamiItem: {
+		DisplayName: 七海的微笑
+		Tooltip: 下载RIDDLE JOKER谢谢喵~
+	}
+
+	Bocchi: {
+		// DisplayName: Bocchi
+		// Tooltip: ""
+	}
+
+	BocchiClose: {
+		// DisplayName: Bocchi Close
+		// Tooltip: ""
+	}
+
+	BocchiLeging: {
+		// DisplayName: Bocchi Leging
+		// Tooltip: ""
+	}
+
+	Boki: {
+		// DisplayName: Boki
+		// Tooltip: ""
+	}
+}
+
+// NPCs.CoilHead.DisplayName: Coil Head
+// Projectiles.DreamSeal.DisplayName: Dream Seal
