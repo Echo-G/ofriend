@@ -30,6 +30,11 @@ Items: {
 		DisplayName: Boki
 		Tooltip: ""
 	}
+
+	IncreaseHundredPower: {
+		DisplayName: Increase Hundred Power
+		Tooltip: ""
+	}
 }
 
 NPCs.CoilHead.DisplayName: Coil Head

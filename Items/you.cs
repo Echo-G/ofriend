@@ -25,8 +25,13 @@ namespace ofriend.Items
 			Item.autoReuse = true;
 			Item.shoot = ModContent.ProjectileType<DreamSeal>();
 		}
+        public override bool CanUseItem(Player player)
+        {
+            Power.IncreasePower(5);
+			return true;
+        }
 
-		public override void AddRecipes()
+        public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.DirtBlock, 10);
