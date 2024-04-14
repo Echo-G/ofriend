@@ -2,3 +2,4 @@ displayName = 老友友友
 author = 大浩 老友
 version = 0.0.0.1
 homepage = https://space.bilibili.com/347642173
+includeSource = true
