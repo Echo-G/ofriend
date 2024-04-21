@@ -27,7 +27,7 @@ namespace ofriend.Items
 		}
         public override bool CanUseItem(Player player)
         {
-            Power.IncreasePower(5);
+            Power.ResetPower();
 			return true;
         }
 
