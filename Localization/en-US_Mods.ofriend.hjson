@@ -3,7 +3,7 @@
 Items: {
 	you: {
 		DisplayName: you
-		Tooltip: "youyouyou"
+		Tooltip: youyouyou
 	}
 
 	NanamiItem: {
@@ -28,7 +28,7 @@ Items: {
 
 	Boki: {
 		DisplayName: Boki‘s Hair accessories
-		Tooltip: "Engulfs the wearer in Boki‘s Love"
+		Tooltip: Engulfs the wearer in Boki‘s Love
 	}
 
 	IncreaseHundredPower: {

@@ -26,8 +26,9 @@ namespace ofriend.UI
         {
             Vector2 position = new Vector2(GetInnerDimensions().X,GetInnerDimensions().Y);
             float progress = _value / _maxValue;
-            spriteBatch.Draw((Texture2D)ModContent.Request<Texture2D>("ofriend/UI/Images/bar"), new Rectangle((int)position.X, (int)position.Y, 400, 30), Color.White);
-            spriteBatch.Draw((Texture2D)ModContent.Request<Texture2D>("ofriend/UI/Images/box"), new Rectangle((int)(position.X + 2), (int)(position.Y + 2), (int)(392 * progress), 22), Color.White);
+            spriteBatch.Draw((Texture2D)ModContent.Request<Texture2D>("ofriend/UI/Images/PowerBackground"), new Rectangle((int)position.X, (int)position.Y, 164, 28), Color.White);
+            spriteBatch.Draw((Texture2D)ModContent.Request<Texture2D>("ofriend/UI/Images/PowerFiller"), new Rectangle((int)(position.X + 22), (int)(position.Y + 4), (int)(138 * progress), 20), Color.White);
+            spriteBatch.Draw((Texture2D)ModContent.Request<Texture2D>("ofriend/UI/Images/PowerFrame"), new Rectangle((int)position.X, (int)position.Y, 164, 28), Color.White);
         }
     }
 }
