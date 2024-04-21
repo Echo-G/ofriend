@@ -3,12 +3,12 @@
 Items: {
 	you: {
 		DisplayName: you
-		Tooltip: ""
+		Tooltip: "youyouyou"
 	}
 
 	NanamiItem: {
 		DisplayName: nanami's smile
-		Tooltip: download RIDDLE JOKER thanks mio~~~
+		Tooltip: Download RIDDLE JOKER thanks meow~~~
 	}
 
 	Bocchi: {
@@ -27,8 +27,8 @@ Items: {
 	}
 
 	Boki: {
-		DisplayName: Boki
-		Tooltip: ""
+		DisplayName: Boki‘s Hair accessories
+		Tooltip: "Engulfs the wearer in Boki‘s Love"
 	}
 
 	IncreaseHundredPower: {

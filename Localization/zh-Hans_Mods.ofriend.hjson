@@ -27,12 +27,18 @@ Items: {
 	}
 
 	Boki: {
-		// DisplayName: Boki
-		// Tooltip: ""
+		DisplayName: 波奇酱的发饰
+		Tooltip: 
+				'''
+				晶莹剔透的黄玉与纯洁无暇的萨菲
+				点缀以粉色呆毛
+				装备将穿戴全套波奇酱套装
+				[c/808080:话说为什么戴上会穿全套]
+				'''
 	}
 
 	IncreaseHundredPower: {
-		// DisplayName: Increase Hundred Power
+		DisplayName: 增加100点P值
 		// Tooltip: ""
 	}
 }
