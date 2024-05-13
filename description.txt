@@ -1,1 +1,2 @@
-老友友友 is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+请勿下载此模组，没有内容，仅仅只是实验
+GitHub：https://github.com/Echo-G/ofriend
