@@ -35,8 +35,15 @@ Items: {
 		DisplayName: Increase Hundred Power
 		Tooltip: ""
 	}
+
+	KoishiFumo: {
+		DisplayName: Koishi Fumo
+		Tooltip: ""
+	}
 }
 
+nanami: Nanami Paint
+KoishiFumo: Koishi Fumo
 NPCs.CoilHead.DisplayName: Coil Head
 Projectiles.DreamSeal.DisplayName: Dream Seal
 DamageClasses.ProjectDamageClass.DisplayName: Project Damage Class

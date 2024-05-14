@@ -41,8 +41,15 @@ Items: {
 		DisplayName: 增加100点P值
 		// Tooltip: ""
 	}
+
+	KoishiFumo: {
+		// DisplayName: Koishi Fumo
+		// Tooltip: ""
+	}
 }
 
+// nanami: Nanami Paint
+// KoishiFumo: Koishi Fumo
 // NPCs.CoilHead.DisplayName: Coil Head
 // Projectiles.DreamSeal.DisplayName: Dream Seal
 // DamageClasses.ProjectDamageClass.DisplayName: Project Damage Class
