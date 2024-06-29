@@ -38,10 +38,6 @@ namespace ofriend.Utilities
                 Player.legs = EquipLoader.GetEquipSlot(Mod, "Boki", EquipType.Legs);
             }
         }
-        public override void OnEnterWorld()
-        {
-            UI.ofriendUI.Visible = true;
-            base.OnEnterWorld();
-        }
     }
 }
+

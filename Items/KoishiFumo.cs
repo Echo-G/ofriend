@@ -17,9 +17,18 @@ namespace ofriend.Items
             Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.KoishiFumoTile>());
             Item.width = 18;
             Item.height = 19;
-            Item.maxStack = 999;
+            Item.maxStack = 9999;
             Item.rare = ItemRarityID.Blue;
             Item.value = Item.buyPrice(0, 1);
+        }
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.SummerHat);
+            recipe.AddIngredient(ItemID.GreenThread);
+            recipe.AddIngredient(ItemID.StoneBlock);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.Register();
         }
     }
 }

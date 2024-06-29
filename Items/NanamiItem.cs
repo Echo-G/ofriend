@@ -1,5 +1,4 @@
 ﻿using Terraria;
-using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -18,6 +17,13 @@ namespace ofriend.Items
             Item.rare = ItemRarityID.Blue;
             Item.value = Item.buyPrice(0, 1);
         }
-
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.Silk, 10);
+            recipe.AddRecipeGroup(RecipeGroupID.Wood, 10);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.Register();
+        }
     }
 }

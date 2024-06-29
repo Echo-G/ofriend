@@ -17,8 +17,8 @@ namespace ofriend.UI
             Powerbar = new PowerUI(Power.MaxPower, Power.NowPower);
             Powerbar.Width.Set(100f, 0f);
             Powerbar.Height.Set(30f, 0f);
-            Powerbar.Left.Set(20f, 0f);
-            Powerbar.Top.Set(20f, 0f);
+            Powerbar.Left.Set(ModContent.GetInstance<Ofriendconfig>().PowerUI_X_Value, 0f);
+            Powerbar.Top.Set(ModContent.GetInstance<Ofriendconfig>().PowerUI_Y_Value, 0f);
             Append(Powerbar);
         }
         public override void Draw(SpriteBatch spriteBatch)

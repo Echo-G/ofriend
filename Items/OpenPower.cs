@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace ofriend.Items
 {
-    public class IncreaseHundredPower : ModItem
+    public class OpenPower : ModItem
     {
         public override void SetDefaults()
         {
@@ -23,7 +18,7 @@ namespace ofriend.Items
         }
         public override bool CanUseItem(Player player)
         {
-            Power.IncreasePower(100);
+            UI.ofriendUI.Visible = !UI.ofriendUI.Visible;
             return true;
         }
         public override void AddRecipes()

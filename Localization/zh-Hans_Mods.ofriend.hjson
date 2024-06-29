@@ -43,7 +43,12 @@ Items: {
 	}
 
 	KoishiFumo: {
-		// DisplayName: Koishi Fumo
+		DisplayName: 恋恋Fumo
+		// Tooltip: ""
+	}
+
+	OpenPower: {
+		DisplayName: 开关PowerUI
 		// Tooltip: ""
 	}
 }
@@ -53,3 +58,24 @@ Items: {
 // NPCs.CoilHead.DisplayName: Coil Head
 // Projectiles.DreamSeal.DisplayName: Dream Seal
 // DamageClasses.ProjectDamageClass.DisplayName: Project Damage Class
+
+Configs: {
+	Ofriendconfig: {
+		// DisplayName: Ofriendconfig
+
+		Headers: {
+			// PowerUI_X: Power U I_ X Header
+			// PowerUI_Y: Power U I_ Y Header
+		}
+
+		PowerUI_X_Value: {
+			// Label: Power U I_ X_ Value
+			// Tooltip: ""
+		}
+
+		PowerUI_Y_Value: {
+			// Label: Power U I_ Y_ Value
+			// Tooltip: ""
+		}
+	}
+}
