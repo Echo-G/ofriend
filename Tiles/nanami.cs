@@ -19,7 +19,7 @@ namespace ofriend.Tiles
             TileObjectData.newTile.Height = 13;
             TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16 };
             TileObjectData.addTile(Type);
-            AddMapEntry(new Color(120, 65, 60), Language.GetText("nanami"));
+            AddMapEntry(new Color(255, 252, 168), Language.GetText("nanami"));
             DustType = 7;
 
         }

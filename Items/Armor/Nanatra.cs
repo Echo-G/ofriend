@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria;
 using Terraria.ModLoader;
@@ -11,7 +10,7 @@ using ofriend.Utilities;
 
 namespace ofriend.Items.Armor
 {
-    public class Boki : ModItem
+    public class Nanatra : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -22,7 +21,6 @@ namespace ofriend.Items.Armor
                 SetupDrawing();
             }
         }
-
         public override void Load()
         {
             if (Main.netMode != NetmodeID.Server)
@@ -43,11 +41,10 @@ namespace ofriend.Items.Armor
             ArmorIDs.Body.Sets.HidesArms[equipSlotBody] = true;
             ArmorIDs.Legs.Sets.HidesBottomSkin[equipSlotLegs] = true;
         }
-
         public override void SetDefaults()
         {
-            Item.width = 48;
-            Item.height = 34;
+            Item.width = 16;
+            Item.height = 14;
             Item.accessory = true;
             Item.rare = ItemRarityID.LightPurple;
             Terraria.GameContent.Creative.CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
@@ -56,17 +53,9 @@ namespace ofriend.Items.Armor
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             var p = player.GetModPlayer<ofriendPlayer>();
-            p.BokiTrans = true;
-            p.BokiHide = hideVisual;
+            p.NanamiTrans = true;
+            p.NanamiHide = hideVisual;
         }
         public override bool IsVanitySet(int head, int body, int legs) => true;
-        public override void AddRecipes()
-        {
-            Recipe recipe =  CreateRecipe();
-            recipe.AddIngredient(ItemID.Topaz);
-            recipe.AddIngredient(ItemID.Sapphire);
-            recipe.AddTile(TileID.WorkBenches);
-            recipe.Register();
-        }
     }
 }

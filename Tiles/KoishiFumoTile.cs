@@ -25,7 +25,7 @@ namespace ofriend.Tiles
             TileObjectData.newTile.Height = 5;
             TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16, 16, 16, 16 };
             TileObjectData.addTile(Type);
-            AddMapEntry(new Color(120, 65, 60), Language.GetText("KoishiFumo"));
+            AddMapEntry(new Color(100, 176, 77), Language.GetText("KoishiFumo"));
             DustType = 7;
         }
         public override bool Slope(int i, int j)

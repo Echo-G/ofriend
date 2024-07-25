@@ -15,10 +15,10 @@ namespace ofriend.Items
         {
             // Vanilla has many useful methods like these, use them! This substitutes setting Item.createTile and Item.placeStyle aswell as setting a few values that are common across all placeable items
             Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.KoishiFumoTile>());
-            Item.width = 18;
-            Item.height = 19;
+            Item.width = 36;
+            Item.height = 38;
             Item.maxStack = 9999;
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Green;
             Item.value = Item.buyPrice(0, 1);
         }
         public override void AddRecipes()

@@ -45,6 +45,11 @@ Items: {
 		DisplayName: Open Power
 		Tooltip: ""
 	}
+
+	Nanatra: {
+		DisplayName: Nanatra
+		Tooltip: ""
+	}
 }
 
 nanami: Nanami Paint

@@ -51,6 +51,11 @@ Items: {
 		DisplayName: 开关PowerUI
 		// Tooltip: ""
 	}
+
+	Nanatra: {
+		// DisplayName: Nanatra
+		// Tooltip: ""
+	}
 }
 
 // nanami: Nanami Paint
